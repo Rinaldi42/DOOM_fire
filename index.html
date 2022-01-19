@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DOOM FIRE</title>
+
+	<style type="text/css">
+		* { 
+			margin: 0;
+		 	padding: 0;
+		}
+
+		table{
+			border-collapse: collapse;
+			border: 1px solid #000;
+		}
+
+		td {
+			width: 25px;
+			height: 25px;
+			border: 1px solid #000;
+			text-align: center;
+			vertical-align: center;
+			font-family:  monospace;
+			font-size: 12px;
+			position: relative;
+		}
+
+		.pixel-index {
+			font-size: 10px;
+			display: inline-block;
+			position: absolute;
+			top: 2px;
+			right: 2px;
+			color: #999;
+		}
+
+		body {
+			min-height: 100vh;
+			display: flex;
+			justify-content: center; 
+			align-items: center;
+		}
+
+		canvas {
+			display: block; 
+			border: 1px solid black;
+		}
+
+
+	</style>
+ </head>
+ <body>
+
+ 	
+   <canvas id="canvas" width="240" height="240" ></canvas>
+   <!-- <div id="debug"></div> -->
+   <script type="application/javascript" src="script.js"></script>
+ </body>
+</html>
