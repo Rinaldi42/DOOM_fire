@@ -11,6 +11,14 @@
 		 	padding: 0;
 		}
 
+		body {
+			min-height: 100vh;
+			display: flex;
+			flex-direction: column;
+			justify-content: center; 
+			align-items: center;
+		}
+
 		table{
 			border-collapse: collapse;
 			border: 1px solid #000;
@@ -36,26 +44,34 @@
 			color: #999;
 		}
 
-		body {
-			min-height: 100vh;
-			display: flex;
-			justify-content: center; 
-			align-items: center;
-		}
 
 		canvas {
 			display: block; 
 			border: 1px solid black;
 		}
 
+		.controls {
+			display: inline-block;
+			padding-top: 5px;
+
+		}
+
+		button {
+			padding: 0px 8px;
+			font-size: 24px;
+		}
+
 
 	</style>
  </head>
  <body>
-
  	
    <canvas id="canvas" width="240" height="240" ></canvas>
-   <!-- <div id="debug"></div> -->
+   <div class="controls">
+   		<button onclick="controlFireIntensity(1)">-</button>
+   		<button onclick="controlFireIntensity(-1)">+</button>
+   </div>
+   
    <script type="application/javascript" src="script.js"></script>
  </body>
 </html>
