@@ -1,11 +1,13 @@
 <h1 align="center">DOOM Fire</h1> 
 
 
+![capa](https://user-images.githubusercontent.com/37752370/150434504-9fe39046-be27-471f-b23a-13256d8b55cb.gif)
+
 ![a](https://img.shields.io/static/v1?label=JavaScript&message=%20&color=yellow&style=for-the-badge&logo=)
 ![a](https://img.shields.io/static/v1?label=HTML5&message=%20&color=orange&style=for-the-badge&logo=)
 ![a](https://img.shields.io/static/v1?label=CSS3&message=%20&color=purple&style=for-the-badge&logo=)
 
-> Status do Projeto: 🚧👷‍ Em desenvolvimento ⚠️🚧 
+> Status do Projeto: ✔️ Concluído
 
 ### Sumário 
 
@@ -15,8 +17,8 @@
 - [Como usar](#como-usar)
 - [Inspiração](#inspiração)
 - [Licença](#licença)
- 
 
+ 
 
 ## Descrição do projeto 
 
