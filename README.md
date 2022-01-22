@@ -65,8 +65,8 @@ print('[' + chex + ']')
 
 ## Inspiração
 
-Inspirado pelo vídeo [Tutorial completo de como programar o Fogo do DOOM (JavaScript puro)](https://www.youtube.com/watch?v=fxm8cadCqbs").
-Repósitorio do projeto [filipedeschamps/doom-fire-algorithm](https://github.com/filipedeschamps/doom-fire-algorithm)
+- Inspirado pelo vídeo [Tutorial completo de como programar o Fogo do DOOM (JavaScript puro)](https://www.youtube.com/watch?v=fxm8cadCqbs").
+- Repósitorio do projeto [filipedeschamps/doom-fire-algorithm](https://github.com/filipedeschamps/doom-fire-algorithm)
 
 ## Licença 
 
